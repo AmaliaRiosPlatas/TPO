@@ -782,8 +782,6 @@ footer{
     
     }
   
-  
-
     .nombre{
         visibility: visible;
         position: absolute;
@@ -798,8 +796,6 @@ footer{
         margin-top: 3px;
        
     }
-
-
 
     /* Footer */
 
@@ -825,9 +821,6 @@ footer{
         height: 30px;
     }
   
-
-   
-
     .perritos img{
         width: 80px;
         height: 40px;
@@ -841,7 +834,7 @@ footer{
 
        /* Header */
 
-       header nav .enlaces{
+        header nav .enlaces{
         position: absolute;
         top: 0;
         right: 0;
@@ -890,8 +883,6 @@ footer{
         padding: 3px;
        }
 
-   
-
         /* Adopciones */
 
         .foto-perros{
@@ -908,10 +899,8 @@ footer{
         }
         .arriba{
             height: 100px;
-           
          
         }
-
 
         .texto h1{
             font-size: 30px;
@@ -922,10 +911,9 @@ footer{
 
         .div2{
             width: 50vw;
-            height: 60vh;
+            height: 50vh;
             margin: 60px;
             position: relative;
-            
         
         }
 
@@ -942,7 +930,7 @@ footer{
             bottom: 0px;
             left: 50%;
             margin-left:-25px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
          
         }
 
@@ -968,8 +956,6 @@ footer{
             margin-top: 3px;
            
         }
-        
-    
        
         /* Footer */
     
@@ -985,7 +971,6 @@ footer{
             
         }
 
-    
         .pagos h3{
             font-size: 14px;
         }
@@ -1003,24 +988,11 @@ footer{
             width: 30px;
             height: 20px;
         }
-      
-
-       
-
+     
         .perritos img{
             width: 70px;
             height: 30px;
         }
-         
-
-
-     
-         
-
-
-    
-    
-
 
 }
 
