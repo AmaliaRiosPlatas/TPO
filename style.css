@@ -108,9 +108,12 @@ main{
 /* Segunda section */
 
 .card1{
-    
-    width: 100%;
-    height: 320px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300px;
+    column-gap: 50px;
+    justify-content: center;
+
     margin-top: 30px;
     text-align: center;
 
@@ -128,7 +131,6 @@ main{
     width: 400px;
     height: 300px;
     float: left;
-   
 
 }
 
@@ -166,6 +168,32 @@ main{
     transition: 0.8s;
    
 }
+
+@media only screen and (min-width: 1900px){
+
+    .card1{
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 300px;
+        column-gap: 100px;
+        justify-content: center;
+    }
+
+    .carrousel li{
+        list-style: none;
+        padding: 15px;
+        margin-left: 75px;
+        margin-right: 75px;
+    
+    }
+    
+
+
+
+
+
+}
+
 
 /*CARROUSEL*/
 
@@ -543,7 +571,7 @@ footer{
 
 .foto-perros{
     width: 100%;
-    height: 400px;
+    height: 500px;
 
 }
 
@@ -706,8 +734,7 @@ footer{
 
 
 
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1400px){
 
     
 .arriba{
@@ -716,7 +743,7 @@ footer{
  
 }
 .foto-perros{
-    height: 250px;
+    height: 350px;
 }
 
 .texto h1{
